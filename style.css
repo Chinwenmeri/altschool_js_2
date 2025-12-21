@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", serif;
+}
+
+h1{
+    font-weight: 700;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#create-todo{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 20px;
+    /* width: 100%; */
+}
+
+#student-Entry{
+    padding: 15px 25px;
+    border-radius: 10px;
+    border: 1px solid #212922;
+    width: 40%;
+}
+#score-Entry{
+    padding: 15px 25px;
+    border-radius: 10px;
+    border: 1px solid #212922;
+    width: 20%;
+}
+button{
+    padding: 15px 25px;
+    background-color: #212922;
+    color: white;
+    border-radius: 10px;
+    border: 0px;
+}
+
+button:hover{
+    background-color: #679289;
+}

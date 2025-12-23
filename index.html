@@ -13,12 +13,28 @@
         <h1>Grade Tracker </h1>
     </header>
 
-    <div id="create-todo">
-        <form action="">
-            <input type="text" id="student-Entry" placeholder="Name of student">
-            <input type="number" id="score-Entry" placeholder="Student score">
-            <button id="enter-todo">enter</button>
+    <div id="create-student">
+        <form id="studentForm">
+            <input type="text" id="studentName" placeholder="Name of student">
+            <input type="number" id="studentScore" placeholder="Student score">
+            <button id="addStudent">enter</button>
         </form>
+    </div>
+
+    <div id="studentData">
+        <table border="1">
+            <thead>
+                <tr>
+                <th>Name</th>
+                <th>Score</th>
+                <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="studentTableBody">
+                </tbody>
+            </table>
+
+            <h3 id="averageDisplay">Average Score: 0</h3>
     </div>
     <script src="./app.js"></script>
 </body>

@@ -17,7 +17,7 @@ header{
     justify-content: center;
 }
 
-#create-todo{
+#create-student{
     display: flex;
     justify-content: center;
     /* align-items: center; */
@@ -25,13 +25,13 @@ header{
     /* width: 100%; */
 }
 
-#student-Entry{
+#studentName{
     padding: 15px 25px;
     border-radius: 10px;
     border: 1px solid #212922;
     width: 40%;
 }
-#score-Entry{
+#studentScore{
     padding: 15px 25px;
     border-radius: 10px;
     border: 1px solid #212922;
@@ -47,4 +47,28 @@ button{
 
 button:hover{
     background-color: #679289;
+}
+
+table{
+    border: 1px solid black;
+    margin: 0 auto;
+    margin-top: 20px; 
+    width: 60%
+}
+
+#averageDisplay{
+    text-align: center;
+}
+
+td{
+    text-align: center;
+    margin: 10px;
+}
+td button{
+    padding: 10px 20px;
+    background-color: #96031A;
+}
+
+td button:hover{
+    background-color: #1B1B1E;   
 }
